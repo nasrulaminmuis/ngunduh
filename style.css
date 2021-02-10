@@ -1,0 +1,69 @@
+body {
+    background-color: #4E7469;
+    margin: 10%;
+}
+.great{
+    margin-bottom: 10%;
+}
+
+h1.judul{
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    letter-spacing: 3px;
+    line-height: 2;
+}
+
+.story{
+    border-top: 2px solid #fd8000;
+}
+
+.circle{
+    padding-left: 5%;
+}
+
+.circleit{
+    height: 40px;
+    width: 40px;
+    background-color: #e4b24e;
+    margin-right: 3%;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.content{
+    border-radius: 50px;
+    width: 350px;
+    height: 250px;
+    border: 5px solid #e4b24e;
+    background-color: #e4b24e;
+    -webkit-transform-origin: 0% 0%;
+    -webkit-transform: matrix3d(1.3071067811865476, 0, -0.071067811865475, 0.0015677669529663686, 0, 1.1, 0, 0, 0.7071067811865475, 0, 0.7071067811865476, -0.001767766952966369, 0, 0, 0, 1);
+    transform-origin: 0% 0%;
+    transform: matrix3d(1.3071067811865476, 0, -0.071067811865475, 0.0015677669529663686, 0, 1.1, 0, 0, 0.7071067811865475, 0, 0.7071067811865476, -0.001767766952966369, 0, 0, 0, 1);
+
+}
+
+.smcircle{
+    padding-left: 15%;
+    padding-bottom: 3%;
+    display: inline-block;
+}
+
+.smcircleit{
+    height: 5px;
+    width: 5px;
+    background-color: #000000;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 1px;
+}
+.footer{
+    position: fixed;
+    border-radius: 50px 50px;
+    background: #ffffff;
+    padding: 20px;
+    width: 250px;
+    height: 110px;
+    -ms-transform: matrix(1.4, -0.3, 0, 1, 0, 0); /* IE 9 */
+    transform: matrix(1.4, -0.3, 0, 1, 0, 0); /* Standard syntax */
+}
