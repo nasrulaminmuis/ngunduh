@@ -12,7 +12,9 @@ body {
     letter-spacing: 3px;
     line-height: 2;
 }
-
+a{
+    color: black;
+}
 .story{
     border-top: 2px solid #fd8000;
 }
@@ -56,48 +58,21 @@ body {
     display: block;
     margin-bottom: 1px;
 }
-
-.content{
-    position: relative;
-    border-radius: 50px;
-    width: 350px;
-    height: 250px;
-    border: 5px solid #e4b24e;
+.konten{
     background-color: #e4b24e;
-    -webkit-transform-origin: 0% 0%;
-    -webkit-transform: matrix3d(1.3071067811865476, 0, -0.071067811865475, 0.0015677669529663686, 0, 1.1, 0, 0, 0.7071067811865475, 0, 0.7071067811865476, -0.001767766952966369, 0, 0, 0, 1);
-    transform-origin: 0% 0%;
-    transform: matrix3d(1.3071067811865476, 0, -0.071067811865475, 0.0015677669529663686, 0, 1.1, 0, 0, 0.7071067811865475, 0, 0.7071067811865476, -0.001767766952966369, 0, 0, 0, 1);
-
+    margin-top: 10%;
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px 50px;
 }
 
-.papan {
-    position: absolute;
-    top: 45%;
-    left: 25%;
-    width: 50%;
-    height: 30%;
-    background-color: transparent;
-}
-
-
-p{
-    color: rgb(255, 255, 255);
+.konten p{
+    font-style: italic;
     font-size: medium;
     letter-spacing: 3px;
-    text-align: start;
-    color: black;
-}
-
-
-.footer{
-    position: fixed;
-    text-align: center;
-    border-radius: 50px 50px;
-    background: #ffffff;
-    padding: 20px;
-    width: 250px;
-    height: 150px;
-    -ms-transform: matrix(1.4, -0.3, 0, 1, 0, 0); /* IE 9 */
-    transform: matrix(1.4, -0.3, 0, 1, 0, 0); /* Standard syntax */
+    margin: 20%;
 }
