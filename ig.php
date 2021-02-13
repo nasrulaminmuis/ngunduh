@@ -38,12 +38,14 @@ $ch = curl_init();
         <a class="home" href="index.html">Home</a>
     </div>
     <main>
-        <form action="print.php" method="get">
+        <form action="ig.php" method="get">
             <input type="text" name="url" id="" placeholder="insert link here ...">
             <button type="submit">go!</button>
         </form>
         <div class="konten">
-            <img src="<?php echo $url; ?>" alt="klik kanan download">
+            <img src="<?php echo $url; ?>" alt="klik kanan download" width="150" height="150" style="vertical-align:middle">
+            <br>
+            <button class="btn success"><a href="<?php echo $url; ?>" class="dl">Download</a></button>
         </div>
     </main>
 </body>

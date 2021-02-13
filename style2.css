@@ -67,6 +67,7 @@ input[type=text] {
     justify-content: center;
     align-items: center;
     border-radius: 15px 50px;
+    position: relative;
 }
 
 .konten p{
@@ -74,4 +75,34 @@ input[type=text] {
     font-size: medium;
     letter-spacing: 3px;
     margin: 20%;
+}
+
+.btn {
+    border: none; /* Remove borders */
+    color: white; /* Add a text color */
+    padding: 14px 28px; /* Add some padding */
+    position: absolute;
+    top: 20px;
+    left: o;
+}
+
+.success {background-color: #4CAF50;}
+
+.dl{
+    color: white;
+    font-size: medium;
+}
+
+.thumb{
+    position: absolute;
+}
+
+.judul{
+    position: absolute;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+.size{
+    position: absolute
 }
