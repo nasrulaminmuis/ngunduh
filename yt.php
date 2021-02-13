@@ -22,8 +22,8 @@ $ch = curl_init();
 </head>
 <body>
     <header>
-        <i class="fab fa-instagram fa-5x"></i>
-        <p class="judul">Ig<br>Downloader</p>
+        <i class="fab fa-youtube fa-5x"></i>
+        <p class="judul">Yt<br>Downloader</p>
     </header>
     <div class="line">
         <a class="home" href="index.html">Home</a>
@@ -34,7 +34,7 @@ $ch = curl_init();
             <button type="submit">go!</button>
         </form>
         <div class="konten">
-            <img src="0<?php echo $thumb; ?>" alt="klik kanan download" width="200" height="100" class="thumb" style="vertical-align:middle">
+            <img src="<?php echo $thumb; ?>" alt="klik kanan download" width="200" height="100" class="thumb" style="vertical-align:middle">
             <br>
             <button class="btn success"><a href="<?php echo $dl; ?>" class="dl">Download</a></button>
         </div>
